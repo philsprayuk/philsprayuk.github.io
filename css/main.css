@@ -22,9 +22,8 @@ a:hover {
   html, body {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
-    color:#00000;
-    background-color: #fffff;
-    text-rendering: optimizeLegibility;
+    color:#0000;
+    background-color: #ffff;
   }
 
   h1 {
@@ -42,12 +41,6 @@ h2 {
     padding-bottom: .7em;
 }
 
-}
-p {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
