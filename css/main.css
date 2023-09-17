@@ -22,23 +22,19 @@ a:hover {
   html, body {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
-    color:#00000;
-    background-color: #fffff;
+ 
   }
 
   h1 {
     font-family: 'Source Serif Pro', serif;
     font-size: 2.4em;
     font-weight: 700;
-    padding-bottom: 1em;
 }
 
 h2 {
     font-family: 'Inter', sans-serif;
     font-size: 2em;
     font-weight: 700;
-    padding-top: 2em;
-    padding-bottom: .7em;
 }
 
 }
