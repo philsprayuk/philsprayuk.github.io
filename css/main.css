@@ -42,6 +42,11 @@ html, body {
 .btn-primary { background: var(--accent); color: white; font-weight:600; }
 .muted-link { color: var(--muted); margin-left: 12px; }
 
+/* Card / boxed hero */
+.hero-card { padding:48px 0; display:flex; justify-content:center; }
+.hero-card .card { background:#fbfbfd; border:1px solid #eef2f6; padding:28px; border-radius:10px; max-width:640px; box-shadow:0 6px 18px rgba(11,27,43,0.04); }
+.hero-card .lead { margin-bottom: 0.75rem; }
+
 .skip-link {
     position: absolute;
     left: -999px;
