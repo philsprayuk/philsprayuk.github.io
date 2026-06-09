@@ -23,6 +23,25 @@ html, body {
     padding: var(--content-padding);
 }
 
+/* Hero */
+.hero {
+    background: linear-gradient(180deg, rgba(11,91,138,0.04), transparent);
+    padding: 48px 0;
+}
+.hero-inner {
+    text-align: left;
+    padding: 24px;
+}
+.lead {
+    color: var(--muted);
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+}
+.hero-actions { margin-top: 16px; }
+.btn { display: inline-block; padding: 10px 16px; border-radius: 6px; text-decoration:none; }
+.btn-primary { background: var(--accent); color: white; font-weight:600; }
+.muted-link { color: var(--muted); margin-left: 12px; }
+
 .skip-link {
     position: absolute;
     left: -999px;
@@ -107,4 +126,6 @@ ul.posts li {
     html, body { font-size: 16px; }
     nav ul li { display: block; margin: 8px 0; }
     .container { padding: 16px; }
+    .hero-inner { padding: 8px; text-align: left; }
+    .btn { padding: 10px 14px; }
 }
